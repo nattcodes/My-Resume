@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kome Nathaniel</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/all.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <!-- ----------Navbar------------- -->
+    <nav class="nav">
+        <div class="nav-content" id="navblur">
+            <div class="nav-brand">
+                <a href="https://hng.tech/" target="_blank">
+                    <img src="https://hng.tech/img/brand-logo.png">
+                </a>
+            </div>
+            <ul class="nav-item">
+                <li class="aa"><a href="#" onclick="toggler()">Who is <span class="about">Kome Nathaniel</span>?</a></li>
+                <li class="ab"><a href="#" onclick="toggler()"><span class="about">About</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ------x----Navbar------x------- -->
+
+    <!-- ----------Home------------- -->
+    <main class="home" >
+        <div class="home-content align-items-center" id="blur">
+          <div class="home-row full-screen align-items-center">
+              <div class="home-text">
+                <h2> Hello,</h2>
+                <h1 class="name"><span>I'm Kome Nathaniel</span></h1>
+                <h3 class="occupation"><span>A Frontend Developer</span></h3>
+                <h4>A self taught frontend developer that is passionate in solving problems and ready to face challenges.</h4>
+              </div>
+              <div class="home-img">
+                  <div class="img-box inner-shadow">
+                      <img src="asset/PhotoRoom-20210724_012834.png" class="outer-shadow" alt="profile" id="img">
+                  </div>
+              </div>
+              <button class="cv-btn" id="btn"><a href="asset/Kome Nathaniel (CV).docx" download="Kome Nathaniel (CV)">Download CV</a></button>
+              <button class="me-btn" id="btn"><a onclick="toggle()" href="#" >Contact Me</a></button>
+          </div>
+        </div>
+        <!-- ------------Contact Popup----------- -->
+        <div id="popup">
+            <div class="pop-content">
+                <h3 class="pop3"> Contact Me</h3>
+                <h1 class="pop1"><a href= "mailto:komenathaniel@gmail.com" target="_blank">komenathaniel@gmail.com</a></h1>
+                <a onclick="toggle()" href="#"><i class="close fas fa-times"></i></a>
+                <h5 class="pop5">Social</h5>
+                <ul class="socials">
+                    <a href="https://www.linkedin.com/in/kome-nathaniel-18728b166/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/nattcodes" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.twitter.com/kome_nath" target="_blank"><i class="fab fa-twitter"></i></a>
+                </ul>
+            </div>
+        </div>
+        <!-- -x-----------Contact Popup----------x- -->
+
+        <!-- ------------About Popup----------- -->
+        <div id="popup-a">
+            <div class="pop-about">
+                <h2>About <span class="me">Me</span></h2>
+                <div class="about-me">
+                    <p>I'm Kome Nathaniel, a 22 year old Nigerian from Lagos, which I'm a <span class="pop-span">Self Taught Front-end Devleper.</span></p>
+                    <p>I'm a Creative Weird individual and also a Gamer that is fascinated with Web Technologies. I create simple, easy, and effective UI.</p>
+                    <P>My mission is to solve problems, work with a team of amazing developers, develop amazing products and help/provide for the needy.</P>
+                </div>
+                <a onclick="toggler()" href="#"><i class="close-a fas fa-times"></i></a>
+            </div>
+        </div>
+        <!-- -----x-------About Popup--------x--- -->
+    </main>
+    <!-- -----x-----Home------x------- -->
+
+
+    <script src="JS/jQuery3.5.1.min.js"></script>
+    <script type="text/javascript" src="JS/main.js"></script>
+</body>
+</html>
